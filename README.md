@@ -9,7 +9,16 @@ o	Description of the differences in ride-sharing data among the different city t
 
 o	Ride-sharing data of the following:
 
-  o	total rides 
+  o	total rides:
+  ## 1. Get the total rides for each city type
+  total_rides_df = pyber_data_df.groupby(["type"]).count()["ride_id"]
+  total_rides_df.head()
+  type
+  Rural        125
+  Suburban     625
+  Urban       1625
+  Name: ride_id, dtype: int64
+
   
   o	total drivers 
   
