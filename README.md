@@ -5,8 +5,11 @@ V. Isualize has assigned a brand-new assignment to create a summary DataFrame of
   
 #	Results:
 1. Description of the differences in ride-sharing data among the different city types. 
-```
-```
+   - Urban and Suburban areas generated higher profit with total fares ~$1600 to ~$2200 and ~$700 to ~$1300 respectively, than rural area having ~$180 to ~$190 in a five month time period.
+   - One common noteable peak for all three city type occured around late February.
+   
+   ![PyBer_fare_summary](https://user-images.githubusercontent.com/106962921/178347549-643a03bd-5188-45ad-bc66-44edd60739af.png)
+
 2. Ride-sharing data of the following:
   - total rides:
   ```
@@ -19,7 +22,7 @@ V. Isualize has assigned a brand-new assignment to create a summary DataFrame of
   Urban       1625
   Name: ride_id, dtype: int64
   ```
-   - total drivers 
+  - total drivers 
   ```
   2. Get the total drivers for each city type
 total_drivers_df = pyber_data_df.groupby(["type"]).sum()["driver_count"]
@@ -70,9 +73,8 @@ pyber_summary_df["Total Fares"] = pyber_summary_df["Total Fares"].map("${:,.2f}"
 pyber_summary_df["Average Fare per Ride"] = pyber_summary_df["Average Fare per Ride"].map("${:,.2f}".format)
 pyber_summary_df["Average Fare per Driver"] = pyber_summary_df["Average Fare per Driver"].map("${:,.2f}".format)
 pyber_summary_df
-
-
   ```
-  
+  <img width="445" alt="Table1" src="https://user-images.githubusercontent.com/106962921/178345079-2b0cea90-ac93-486f-bb42-fd7ef1d6dd84.png">
+
 # Summary:
 There is a statement summarizing three business recommendations to the CEO for addressing any disparities among the city types. (4 pt)
