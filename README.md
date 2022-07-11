@@ -66,6 +66,14 @@ dtype: float64
   ```
    - total fare by city type
   ```
+  6. Create a PyBer summary DataFrame. 
+pyber_summary_df = pd.DataFrame()
+pyber_summary_df["Total Rides"] = total_rides_df
+pyber_summary_df["Total Drivers"] = total_drivers_df
+pyber_summary_df["Total Fares"] = total_fares_df
+pyber_summary_df["Average Fare per Ride"] = average_fare_ride
+pyber_summary_df["Average Fare per Driver"] = average_fare_driver
+pyber_summary_df
   8. Format the columns.
 pyber_summary_df["Total Rides"] = pyber_summary_df["Total Rides"].map("{:,}".format)
 pyber_summary_df["Total Drivers"] = pyber_summary_df["Total Drivers"].map("{:,}".format)
@@ -77,4 +85,6 @@ pyber_summary_df
   <img width="445" alt="Table1" src="https://user-images.githubusercontent.com/106962921/178345079-2b0cea90-ac93-486f-bb42-fd7ef1d6dd84.png">
 
 # Summary:
-There is a statement summarizing three business recommendations to the CEO for addressing any disparities among the city types. (4 pt)
+Three business recommendations to address any disparities among the city types:
+1. There are higher total drivers in urban and suburban area than rural, however, the average fare per driver and average fare per ride is higher in rural area than urban and suburban areas. Hire more drivers in rural area to increase revenue.
+2. 
