@@ -6,6 +6,7 @@ V. Isualize has assigned a brand-new assignment to create a summary DataFrame of
 #	Results:
 1. Description of the differences in ride-sharing data among the different city types. 
    - Urban and Suburban areas generated higher profit with total fares ~$1600 to ~$2200 and ~$700 to ~$1300 respectively, than rural area having ~$180 to ~$190 in a five month time period.
+   - There is a higher PyBer ride service utilized in urban than suburban and rural areas.
    - One common noteable peak for all three city type occured around late February.
    
    ![PyBer_fare_summary](https://user-images.githubusercontent.com/106962921/178347549-643a03bd-5188-45ad-bc66-44edd60739af.png)
