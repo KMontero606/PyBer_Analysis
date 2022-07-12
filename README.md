@@ -86,5 +86,6 @@ pyber_summary_df
 
 # Summary:
 Three business recommendations to address any disparities among the city types:
-1. There are higher total drivers in urban and suburban area than rural, however, the average fare per driver and average fare per ride is higher in rural area than urban and suburban areas. Hire more drivers in rural area to increase revenue.
-2. 
+1. There are less drivers in rural area, although, the average fare per driver/ride is higher than urban and suburban areas. This could be indicative of PyBer users travelling longer distance. Hire more drivers in rural area to increase rural revenue.
+2. The peak noted in late February as well as multiple peaks occuring in urban and rural areas may have occurred due to an event that led to increase in rides and fares. Research future events and allocate resources where they are needed, for example, allocating drivers from suburban area to work in urban and rural area and vice versa.
+3. Urban areas have a higher revenue than suburban and rural area which indicates higher use of PyBer services. Promotions may entice loyal customers to ensure continued service with PyBer.
